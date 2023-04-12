@@ -52,6 +52,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
+  background: var(--main-color);
 }
 .header-active {
   background: var(--box-color);
@@ -66,7 +67,7 @@ header {
 .logo {
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--main-color);
+  color: var(--bg-color);
 }
 .navbar {
   display: flex;
@@ -129,17 +130,18 @@ header {
   align-items: center;
   justify-content: center;
 }
+.heading-icon{
+width: 40px;
+}
 .home-img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background: #98a7fc;
+width: 200px;
+height: 200px;
+  border-radius: 80%;
+  background: var(--main-color);
   overflow: hidden;
   margin-bottom: 2rem;
 }
 .home-img {
-  width: 180px;
-  height: 180px;
   object-fit: cover;
   object-position: center;
 }
@@ -259,6 +261,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  
 }
 .services-box {
   display: flex;
